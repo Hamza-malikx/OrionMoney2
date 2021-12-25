@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+body {
+  background-color: #22253b;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-tabs .nav-link.active {
+  transition: all 0.7s;
+  color: #00bf72 !important;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-tabs .nav-link:hover {
+  transition: all 0.7s;
+  color: #00bf72 !important;
+}
+.nav-tabs .nav-link.active::after {
+  height: 3px;
+  background: #00bf72;
+  position: absolute;
+  bottom: -10px;
+  left: 1px;
+  display: block;
+  width: 100%;
+  content: "";
+  z-index: 2;
+  border-radius: 12px 0 0 0;
+}
+@media screen and (max-width: 600px) and (min-width: 501px) {
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 500px) and (min-width: 475px) {
+  .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 62px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
+  }
+}
+@media screen and (max-width: 474px) and (min-width: 425px) {
+  .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 55px !important;
+  }
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
+  }
+}
+@media screen and (max-width: 424px) and (min-width: 380px) {
+  .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 49px !important;
+  }
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
+  }
+}
+@media screen and (max-width: 379px) and (min-width: 350px) {
+  .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 43px !important;
+  }
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
+  }
+}
+@media screen and (max-width: 349px) and (min-width: 310px) {
+  .btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 28px !important;
+  }
+  .btnbtn {
+    text-align: center;
+  }
+  .btnbtn button {
+    color: #198754;
+    border-color: #198754;
+    padding: 5px 50px !important;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 601px) {
+  .btn-outline-success:last-child {
+    /* display: none !important; */
   }
 }

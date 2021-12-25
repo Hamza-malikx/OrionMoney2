@@ -1,0 +1,1799 @@
+.App {
+  position: relative;
+  padding: 20px;
+  margin: 0;
+  font-family: "Gilroy", Arial, Helvetica;
+  background-color: #22253b;
+  width: 100%;
+  height: 100vh !important;
+}
+.header {
+  display: flex;
+  position: relative;
+}
+.leftLogo img {
+  width: 44px;
+  height: 44px;
+}
+.container {
+  max-width: 1366px;
+  margin: auto;
+}
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #fff;
+}
+.rightContent {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  /* border-right: 1px solid white; */
+}
+.svgFirst {
+  padding: 4px 34px 0;
+  position: relative;
+}
+
+.svgFirst::before {
+  display: block;
+  width: 1px;
+  height: 35px;
+  background: #eaeaed;
+  opacity: 0.1;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.svgFirst svg {
+  fill: #fff;
+}
+.list {
+  list-style: none;
+  display: flex;
+  z-index: 901;
+}
+.insuranceTitle {
+  font-family: "gilroy", Arial, Helvetica;
+  font-weight: 400;
+}
+.svgSecond {
+  padding: 4px 34px 0;
+  display: flex;
+}
+.rectangle {
+  margin-right: 18px;
+}
+.oxdText {
+  font-family: "gilroy", Arial, Helvetica;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.potfolioBalance {
+  color: #fff;
+  list-style: none;
+  position: relative;
+  left: -28px;
+  top: 20px;
+}
+.potfolioBalance li:nth-child(1) {
+  display: block;
+  padding: 0 0 8px;
+  color: #9497a3;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.potfolioBalance li:nth-child(2) {
+  color: #9497a3;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #9497a3;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+.potfolioBalance li:nth-child(2)::after {
+  content: "";
+  display: block;
+  background: #fff;
+  height: 1px;
+  opacity: 0.1;
+  margin: 12px 0 0;
+  width: 192px;
+}
+.potfolioBalance li:nth-child(3) {
+  display: block;
+  padding: 0 0 8px;
+  color: #9497a3;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 12px 0;
+}
+.potfolioBalance li:nth-child(4) {
+  color: #9497a3;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+.centers {
+  flex: 0 0 auto;
+  width: 1250.53px;
+
+  min-width: 1250.53px;
+}
+.lefts {
+  flex: 0 0 auto;
+  width: 10.66666667%;
+}
+.bottoms {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: 100%;
+  max-width: 192px;
+  display: block;
+  color: #fff;
+}
+.howIt {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  position: relative;
+  padding: 0 0 15px;
+  margin: 0 0 15px;
+}
+.howIt a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px 0 0;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.howIt::after {
+  content: "";
+  display: block;
+  background: #fff;
+  opacity: 0.1;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.howIt a:link,
+.howIt a:focus {
+  color: #fff;
+  transition: all 1s ease;
+}
+.howIt a:hover {
+  color: #00bf72;
+  transition: all 0.7s ease;
+}
+.howItImgs {
+  display: flex;
+  margin-bottom: 10px;
+}
+.howItImgs img {
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+.howItLastText p {
+  color: #9497a3;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0px;
+}
+.centers2 {
+  flex: 0 0 auto;
+  max-width: 1250px;
+  position: absolute;
+  left: 13.2%;
+  top: 20px;
+}
+.columns {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+.columns3 {
+  max-width: 1122px;
+  height: auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+.centers2 ul {
+  margin-bottom: 0px !important;
+}
+.SecondRow {
+  display: flex;
+}
+.tabs {
+  /* position: absolute; */
+  z-index: 800;
+}
+.tabs ul {
+  border-bottom: 0px solid #dee2e6 !important;
+  padding-bottom: 11px;
+}
+.tabs ul li:active {
+  color: #fff !important;
+}
+.tabs ul li button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent !important;
+  border: 0px solid #dee2e6 !important;
+}
+.tabs ul button.active {
+  color: #fff !important;
+}
+
+.adminTable {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  background-color: #fff;
+}
+.adminTableDiv {
+  background: #ffffff;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  border-radius: 15px;
+  padding: 0 0 40px;
+}
+.adminTableHead {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.admintableHeadRow {
+  border-bottom: 1px solid #000;
+  border-width: 4px;
+  padding-right: 20px;
+}
+.admintableHeadRow th {
+  color: #9497a3;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #fff;
+}
+.admintableHeadRow th:nth-child(1) {
+  text-align: left;
+}
+.admintableHeadRow th:nth-child(3) {
+  text-align: left;
+  width: 15%;
+}
+.admintableHeadRow th:nth-child(2) {
+  width: 30%;
+}
+.admintableHeadRow th:nth-child(5) {
+  width: 400px;
+}
+.admintableBodyRow tr {
+  padding: 8px 0;
+}
+.admintableBodyRow tr:nth-child(odd) {
+  background: white;
+}
+.admintableBodyRow tr:nth-child(even) {
+  background: #f9f9fa;
+}
+.admintableBodyRow tr td {
+  background-color: transparent;
+  border: none;
+  padding: 0 0;
+}
+.admintableBodyRow tr td:nth-child(2) {
+  text-align: center;
+}
+.lastColBtn {
+  margin-left: 100px;
+}
+.admintableBodyRow tr td:nth-child(5) {
+  text-align: center;
+}
+.adminTableHead::after {
+  content: "";
+  position: absolute;
+  top: 73%;
+  height: 1.5px;
+  width: 100%;
+  background: #e9e8e8;
+  left: 0%;
+  z-index: 1;
+}
+.admintableBodyRow tr {
+  position: relative;
+}
+table tbody tr {
+  background-color: black;
+}
+.tableBodyFirstColumn {
+  display: flex;
+  padding-left: 10px;
+}
+.tableBodySecondColumn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 60px;
+  padding-top: 18px;
+}
+.UST {
+  position: relative;
+  padding-right: 10px;
+}
+.UST p {
+  color: #22253b;
+  font-size: 16px;
+}
+.percent {
+  color: #9497a3;
+  padding-left: 10px;
+}
+.UST:after {
+  width: 1px;
+  height: 16px;
+  background: #9497a3;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+.UST:last-child::after {
+  display: none;
+}
+.tableBodyFirstColumn img {
+  background-color: #fff;
+  border: none;
+}
+.tableBodyFirstColumn p {
+  margin-bottom: 0px !important;
+  padding: 4px 0 0 6px;
+  color: #22253b;
+}
+.saverContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.saverContent h2 {
+  color: #272a43;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.buttons {
+  display: flex;
+}
+.totalValueHeading {
+  list-style: none;
+  display: flex;
+  padding-left: 10px !important;
+}
+.totalValueSubHeadings {
+  list-style: none;
+}
+.totalValueSubHeadings li {
+  padding: 6px 0;
+}
+.totalValueSubHeadings li:nth-child(even) {
+  background: #f9f9fa;
+}
+.totalValueHeading::after {
+  content: "";
+  position: absolute;
+  top: 26%;
+  height: 1.5px;
+  width: 82%;
+  background: #e9e8e8;
+  left: 4%;
+  z-index: 1;
+}
+.fent {
+  display: flex;
+  color: #22253b;
+}
+.context2 {
+  padding-left: 6px;
+}
+.context {
+  padding-left: 109px;
+}
+.totalValueHeading li {
+  color: #9497a3;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px 236px 8px 0;
+}
+.centers2 {
+  left: 16.2%;
+  width: 81%;
+}
+/* Media Queries */
+@media screen and (max-width: 1920px) and (min-width: 1601px) {
+  .centers2 {
+    left: 16.2%;
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1440px) {
+  .App {
+    height: 100vh;
+  }
+  .centers2 {
+    left: 16.2%;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .columns {
+    height: 134vh;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 20%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 90%;
+  }
+  .App {
+    height: 150vh !important;
+  }
+  .centers2 {
+    left: 16.2%;
+    width: 80%;
+  }
+  /* .columns3 {
+    width: 1032px;
+  } */
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+  /* .columns3 {
+    width: 1032px;
+  } */
+  .centers2 {
+    left: 16.2%;
+    width: 80%;
+  }
+  .potfolioBalance {
+    width: 160px;
+  }
+  .potfolioBalance li:nth-child(2)::after {
+    max-width: 160px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 30%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 130vh !important;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 768px) {
+  .potfolioBalance {
+    width: 160px;
+  }
+  .bottoms {
+    max-width: 80px;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .potfolioBalance li:nth-child(2)::after {
+    max-width: 160px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 103vh !important;
+  }
+  .centers2 {
+    left: 2%;
+    width: 88%;
+    position: relative;
+  }
+  .columns2 {
+    height: auto;
+  }
+  .App {
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 638px) {
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 0;
+    top: 16%;
+    width: 100%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -72px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -79px;
+    left: -72px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 44%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 660px;
+    left: -172%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 203vh !important;
+  }
+}
+
+@media screen and (max-width: 687px) and (min-width: 555px) {
+  .totalValueHeading li:nth-child(2) {
+    padding: 5px 40px 8px 0;
+  }
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 0;
+    top: 16%;
+    width: 100%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -72px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -79px;
+    left: -72px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 44%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 400%;
+    left: -172%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 203vh !important;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 638px) {
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 0;
+    top: 16%;
+    width: 100%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -72px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -79px;
+    left: -72px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 44%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 660px;
+    left: -172%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 203vh !important;
+  }
+}
+
+@media screen and (max-width: 637px) and (min-width: 601px) {
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 0;
+    top: 16%;
+    width: 100%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -72px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -79px;
+    left: -72px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 44%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 356%;
+    left: -154%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 203vh !important;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 501px) {
+  .totalValueHeading li:nth-child(2) {
+    padding: 5px 40px 8px 0;
+  }
+  .lastColBtn {
+    position: absolute;
+  }
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 13px;
+    top: 13%;
+    width: 96%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -60px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -85px;
+    left: -60px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 40%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 300%;
+    left: -122%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+    display: none;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 203vh !important;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 431px) {
+  .totalValueHeading li:nth-child(2) {
+    padding: 5px 40px 8px 0;
+  }
+  .totalValueHeading::after {
+    top: 29%;
+  }
+  .saverContent {
+    flex-direction: column;
+  }
+  .buttons {
+    width: 100%;
+  }
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 10px;
+    top: 16%;
+    width: 96%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -60px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -85px;
+    left: -60px;
+    width: 111%;
+  }
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 16px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 40%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 260%;
+    left: -102%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+    display: none;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 13px;
+  }
+  .UST p {
+    font-size: 13px;
+  }
+  .list {
+    margin-right: -10px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 196vh !important;
+  }
+}
+
+@media screen and (max-width: 430px) and (min-width: 350px) {
+  .totalValueHeading li:nth-child(1) {
+    padding: 5px 140px 8px 0;
+  }
+  .totalValueSubHeadings {
+    padding-left: 5px;
+  }
+  .context {
+    padding-left: 40px;
+  }
+  .totalValueHeading li:nth-child(2) {
+    padding: 5px 10px 8px 0;
+  }
+  .totalValueHeading::after {
+    top: 29%;
+  }
+  .saverContent {
+    flex-direction: column;
+  }
+  .buttons {
+    width: 100%;
+  }
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 10px;
+    top: 13%;
+    width: 96%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -36px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -85px;
+    left: -36px;
+    width: 111%;
+  }
+
+  .svgFirst {
+    padding: 4px 19px 0px;
+  }
+  .svgSecond {
+    padding: 4px 10px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 36%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 200%;
+    left: -59%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+    display: none;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 10px;
+  }
+  .UST {
+    padding-right: 2px;
+  }
+  .UST::after {
+    top: 0px;
+  }
+  .percent {
+    padding-left: 2px;
+  }
+  .UST p {
+    font-size: 10px;
+  }
+  .list {
+    margin-right: -15px;
+    margin-top: 7px;
+  }
+  .svgFirst {
+    padding: 6px 10px 0px;
+  }
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 208vh !important;
+  }
+  .tableBodyFirstColumn {
+    padding-left: 0px;
+  }
+  .tableBodyFirstColumn p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 349px) and (min-width: 310px) {
+  .totalValueHeading li:nth-child(1) {
+    padding: 5px 140px 8px 0;
+  }
+  .totalValueSubHeadings {
+    padding-left: 5px;
+  }
+  .context {
+    padding-left: 40px;
+  }
+  .totalValueHeading li:nth-child(2) {
+    padding: 5px 10px 8px 0;
+  }
+  .totalValueHeading::after {
+    top: 29%;
+  }
+  .saverContent {
+    flex-direction: column;
+  }
+  .buttons {
+    width: 100%;
+  }
+  .potfolioBalance {
+    position: relative;
+  }
+  .potfolioBalance li:nth-child(2) {
+    position: absolute;
+    bottom: -37px;
+  }
+  .potfolioBalance li:nth-child(3) {
+    position: absolute;
+    top: -11px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(4) {
+    position: absolute;
+    top: 24px;
+    left: 121%;
+    width: 129px;
+  }
+  .potfolioBalance li:nth-child(2):after {
+    display: none;
+  }
+  .centers2 {
+    left: 10px;
+    top: 15%;
+    width: 96%;
+  }
+  .rightContent {
+    position: relative;
+  }
+  .rightContent:after {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -9px;
+    left: -36px;
+    width: 111%;
+  }
+  .rightContent:before {
+    content: "";
+    display: block;
+    background: #eaeaed;
+    opacity: 0.1;
+    height: 1px;
+    position: absolute;
+    bottom: -85px;
+    left: -36px;
+    width: 111%;
+  }
+
+  .svgFirst {
+    padding: 4px 4px 0px 2px;
+  }
+  .rectangle {
+    margin-right: 4px;
+  }
+  .svgSecond {
+    padding: 4px 2px 0px;
+  }
+  .potfolioBalance {
+    width: 160px;
+    display: flex;
+  }
+  .bottoms {
+    max-width: 80px;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 30%;
+  }
+  .howIt {
+    width: 160px;
+  }
+  .howIt::after {
+    width: 200%;
+    left: -69%;
+  }
+  .admintableHeadRow th {
+    font-size: 10px;
+  }
+  .howIt:nth-child(2) a {
+    margin: 0 12px 0 16px;
+  }
+  .howItImgs {
+    margin-left: 32px;
+  }
+  .howItLastText {
+    width: 206px;
+    /* margin-right: -32px; */
+    margin-left: -31px;
+  }
+  .admintableHeadRow th:nth-child(1) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(2) {
+    width: 50%;
+  }
+  .admintableHeadRow th:nth-child(5) {
+    width: 10%;
+  }
+  .admintableBodyRow tr td:nth-child(4) {
+    text-align: center;
+  }
+  .admintableBodyRow tr td:nth-child(5) {
+    width: 2%;
+    display: none;
+  }
+  .admintableHeadRow th:nth-child(4) {
+    width: 15%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .tableBodySecondColumn {
+    padding-left: 0px;
+  }
+  .admintableBodyRow tr td {
+    font-size: 10px;
+  }
+  .UST {
+    padding-right: 2px;
+  }
+  .UST::after {
+    top: 0px;
+  }
+  .percent {
+    padding-left: 2px;
+  }
+  .UST p {
+    font-size: 10px;
+  }
+  .list {
+    margin-right: -15px;
+    margin-top: 7px;
+  }
+
+  .adminTableHead::after {
+    max-width: 100%;
+  }
+  .centers {
+    max-width: 90%;
+    min-width: 90%;
+    width: 86%;
+  }
+  .App {
+    height: 228vh !important;
+  }
+  .tableBodyFirstColumn {
+    padding-left: 0px;
+  }
+  .tableBodyFirstColumn p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 601px) {
+  .btnbtn {
+    display: none !important;
+  }
+}
